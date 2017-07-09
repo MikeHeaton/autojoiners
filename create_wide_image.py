@@ -13,10 +13,9 @@ if __name__ == "__main__":
 
     framesource = aj_io.create_object_from_recipe(
                                     'mode', args)
-    imagesource = aj_imagesource.FacesFromVideo(
-                                    framesource,
-                                    pertubation=args['pertubation'],
-                                    border=args['border_size'])
+    imagesource = aj_imagesource.RawImages(
+                                    framesource
+                                    )
     shatter = aj_io.create_object_from_recipe(
                                     'shatter', args)
     canvas = aj_canvas.JoinerCanvas(args['size'], shatter,
