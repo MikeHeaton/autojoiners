@@ -1,18 +1,13 @@
 # AUTOJOINERS
 
+Try `python create_face_image.py file examplemov.mov -size 800 700 -filename sampleoutput.jpg -shatter Voroi`
+<img src="sample_images/sampleoutput1.png" alt="Drawing" style="width: 200px;"/>
+
+
 An Art Program which builds cubist portraits in the tradition of early Picasso or Hockney.
 
 <img src=“sample_images/picasso_manwithviolin.jpg” alt="Drawing" style="width: 100px;"/>
 <img src="sample_images/hockney_joiner.jpg" alt="Drawing" style="width: 100px;"/>
-
-
-## WHAT?
-
-Tba
-
-## WHY?
-
-Tba
 
 ## HOW?
 
@@ -33,6 +28,3 @@ The program will take input either from your webcam or the specified movie file,
   <br/><img src="sample_images/hockney_squares.jpg" alt="Drawing" style="width: 200px;"/>
 * <b>`-filename <str>`</b>: the file name for the output image. Default is 'output.jpg'.
 
-#### Example:
-Try `python create_face_image.py file examplemov.mov -size 800 700 -filename sampleoutput.jpg -shatter Voroi`
-<img src="sample_images/sampleoutput1.png" alt="Drawing" style="width: 200px;"/>
