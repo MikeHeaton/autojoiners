@@ -6,7 +6,7 @@ Try `python create_face_image.py file examplemov.mov -size 800 700 -filename sam
 
 An Art Program which builds cubist portraits in the tradition of early Picasso or Hockney.
 
-<img src=“sample_images/picasso_manwithviolin.jpg” alt="Drawing" style="width: 100px;"/>
+<img src="sample_images/picasso_manwithviolin.jpg" alt="Drawing" style="width: 100px;"/>
 <img src="sample_images/hockney_joiner.jpg" alt="Drawing" style="width: 100px;"/>
 
 ## HOW?
